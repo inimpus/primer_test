@@ -1,21 +1,26 @@
 body {
     display: flex;
     justify-content: center;
-    width: 100px;
-    flex-wrap: wrap;
+    width: 100%;
+    flex-wrap: wrap; 
     /* max-height: ; */
 }
 
 body > div {
-    text-align: center;
     justify-content: center;
     vertical-align: middle;
 }
 
-.clonazepampampam > span {
-    color: green;
+#background {
+    background-image: "../img/ta_bien.png";
 }
 
 .body >input {
     color: black;
+    width: auto;
+}
+
+h3 {
+    font-size: large;
+    color: green;
 }
