@@ -1,0 +1,51 @@
+body {
+    /* background-image: url("../img/ta_bien.png");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+body > div {
+    justify-content: center;
+    vertical-align: middle;
+}
+
+#background {
+    width: 100%;
+    height: 100%;
+}
+
+.body > input {
+    color: black;
+    width: auto;
+}
+
+h3 {
+    font-size: large;
+    color: green;
+}
+
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* justify-content: center; */
+    width: 200px;
+}
+
+.calculadora > * {
+    max-width: 100%;
+}
+
+.calculadora > div {
+    text-align: left;
+}
+
+.clonazepampampampam {
+    flex-direction: column;
+}
